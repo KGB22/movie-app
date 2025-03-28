@@ -1,0 +1,47 @@
+.detail__container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.detail__container2 {
+  display: flex;
+}
+
+.detail__desc {
+  line-height: 26px;
+}
+
+.detail__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 0 40px;
+  background-color: #f2f2f2;
+}
+
+.detail__year,
+.detail__runtime,
+.detail__rating,
+.detail__desc {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-bottom: 8px;
+}
+
+.detail__trailer {
+  padding: 10px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.detail__lgimg {
+  height: 600px;
+}
+
+.detail__title {
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}

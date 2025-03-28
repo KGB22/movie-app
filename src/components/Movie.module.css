@@ -1,0 +1,46 @@
+.movie__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  padding: 5px;
+}
+
+.movie__img {
+  border-radius: 4px;
+  max-width: 300px;
+  min-width: 100px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie__text {
+  text-decoration: none;
+}
+
+.movie__title {
+  font-weight: 500;
+  color: black;
+  padding: 5px 0;
+}
+.movie__year {
+  font-size: 0.85rem;
+  color: rgb(73, 72, 72);
+  padding-bottom: 5px;
+}
+
+.movie__rating {
+  font-size: 0.8rem;
+  color: rgb(255, 71, 111);
+}
+
+.movie__info {
+}
+.movie__defaultImg {
+  border-radius: 4px;
+  max-width: 300px;
+  min-width: 100px;
+  width: 100%;
+  object-fit: cover;
+  height: 354.59px;
+}

@@ -1,0 +1,13 @@
+.btn {
+  display: inline;
+  background: none;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ff476f;
+  font-size: 2rem;
+  cursor: pointer;
+  &:hover {
+    color: #222222;
+  }
+}
